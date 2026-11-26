@@ -1,143 +1,66 @@
-# 🇺🇸 American Explorer AI – Travel Chatbot
 
-An AI-powered travel assistant built using **Python and the OpenAI API**, designed to help users explore destinations, discover landmarks, and learn about travel attractions across the United States.
+# American Explorer AI 🇺🇸
 
-The chatbot uses conversational AI to provide concise, informative, and context-aware travel recommendations through an interactive command-line interface.
+An AI-powered American travel assistant built using Python
+and the OpenAI API.
 
-## 🎥 Project Demo
+## Features
 
-Watch the recorded demonstration of American Explorer AI in action.
+- AI-powered travel recommendations
+- Continuous conversational experience
+- American-specific travel knowledge
+- Context-aware conversations
+- Secure API key configuration
+- Error handling
 
-<!-- Add your demo video link here -->
+## Technology Stack
 
-## ✨ Features
+- Python
+- OpenAI API
+- OpenAI Python SDK
+- python-dotenv
 
-- **AI-Powered Conversations:** Uses OpenAI's language model to generate intelligent travel responses.
-- **Travel Assistance:** Provides information about American landmarks, tourist attractions, museums, and destinations.
-- **Conversation Memory:** Maintains conversation history to support contextual follow-up questions.
-- **Custom AI Personality:** Uses a dedicated system prompt to establish the chatbot's travel-guide behavior.
-- **Interactive CLI:** Allows users to ask multiple questions in a continuous conversation.
-- **Secure API Configuration:** Uses environment variables to protect API credentials.
-- **Error Handling:** Handles API errors and unexpected exceptions.
+## Installation
 
-## 🛠️ Technology Stack
+1. Clone the repository:
 
-| Technology | Purpose |
-|---|---|
-| Python | Core programming language |
-| OpenAI API | AI-powered responses |
-| OpenAI Python SDK | API integration |
-| python-dotenv | Environment variable management |
-| Git & GitHub | Version control and source-code hosting |
+   git clone YOUR_GITHUB_REPOSITORY_URL
 
-## 📁 Project Structure
+2. Navigate to the project:
 
-```text
-American-Explorer-AI/
-│
-├── main.py
-├── requirements.txt
-├── .env
-├── .gitignore
-└── README.md
-```
+   cd American-ai-travel-guide
 
-## ⚙️ Installation & Setup
+3. Create a virtual environment:
 
-### 1. Clone the repository
+   python3 -m venv venv
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
+4. Activate the environment:
 
-### 2. Navigate to the project directory
+   source venv/bin/activate
 
-```bash
-cd American-Explorer-AI
-```
+5. Install dependencies:
 
-### 3. Create a virtual environment
+   pip install -r requirements.txt
 
-```bash
-python3 -m venv venv
-```
+6. Create a .env file and add your API key:
 
-### 4. Activate the virtual environment
+   OPENAI_API_KEY=your_api_key
 
-**macOS / Linux:**
+7. Run the application:
 
-```bash
-source venv/bin/activate
-```
+   python main.py
 
-**Windows:**
+## Example Questions
 
-```bash
-venv\Scripts\activate
-```
+- What is the most famous landmark in American?
+- How far is the New Jersey from the Statue of Liberty?
+- Where is the Mount Rainier?
+- What are the must-see artworks at the California?
 
-### 5. Install dependencies
+## Author
 
-```bash
-pip install -r requirements.txt
-```
+Furqaan Mujtahid
 
-### 6. Configure your OpenAI API key
+## License
 
-Create a `.env` file in the root directory:
-
-```env
-OPENAI_API_KEY=your_openai_api_key
-```
-
-Obtain your API key from the [OpenAI Developer Platform](https://platform.openai.com/api-keys).
-
-### 7. Run the application
-
-```bash
-python3 main.py
-```
-
-## 💬 Example Interactions
-
-Users can ask questions such as:
-
-- What are the most famous landmarks in the United States?
-- What are the must-visit attractions in New York?
-- Tell me about the Grand Canyon.
-- What are some popular tourist destinations in California?
-- Recommend places to visit in Washington, D.C.
-
-## 🔐 Security
-
-- API credentials are stored in environment variables.
-- The `.env` file is excluded from version control.
-- Never commit or publicly share your OpenAI API key.
-
-## 🚀 Future Enhancements
-
-Potential improvements for future versions:
-
-- React-based interactive web interface.
-- Real-time maps and geographical information.
-- Travel itinerary generation.
-- Integration with weather and location APIs.
-- PostgreSQL database for persistent conversation history.
-- User authentication and personalized travel recommendations.
-- Deployment using Microsoft Azure.
-
-## 👨‍💻 Author
-
-**Furqaan Mujtahid**
-
-Technology Entrepreneur | AI Engineering | Software Development
-
-GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
-
----
-
-*Built as an independent AI engineering project to explore conversational AI, API integration, and Python application development.*
-
-## 📄 License
-
-This project is licensed under the MIT License.
+MIT License
