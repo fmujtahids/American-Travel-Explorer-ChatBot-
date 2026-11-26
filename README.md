@@ -7,8 +7,7 @@ The chatbot uses conversational AI to provide concise, informative, and context-
 ## 🎥 Project Demo
 
 Watch the recorded demonstration of American Explorer AI in action.
-
-<!-- Add your demo video link here -->
+https://github.com/fmujtahids/American-Travel-Explorer-ChatBot-/blob/main/American-Travel-Chatbot.mp4
 
 
 ## ✨ Features
